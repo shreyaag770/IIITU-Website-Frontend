@@ -521,7 +521,9 @@ width: 150px;
 }
 
 .tabs.tabs-transparent {
-    background-color: transparent
+    background-color: transparent;
+    width: 100%;
+    margin-left:420px;
 }
 
 .tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
