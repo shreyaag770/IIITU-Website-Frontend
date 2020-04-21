@@ -1020,10 +1020,10 @@ padding: 8px 15px 8px 0px;
     display: block;
   }
 
-  .tabs1{
+  /*.tabs1{
       margin-left: 420px;
       margin-right: 300px;
-  }
+  }*/
 
   .tabs1 a:hover {
       background-color: #23D5AE;
