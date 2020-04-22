@@ -105,10 +105,17 @@
           </div>
         </div>
       </nav>
-
+      
       <ul class="sidenav" id="mobile-demo">
       <li><a href="#test1">Home</a></li>
-            
+            <script>
+  document.addEventListener('DOMContentLoaded', function() {
+  console.log("ok");
+    var elems = document.querySelectorAll('.sidenav');
+    var options={edge:'left'};
+    var instances = M.Sidenav.init(elems, options);
+    
+  });</script>
             <div class="dropdownn1" >
               <div class="dropbtnn1"><li><a href="#">About Us</a></li></div>
               <div class="dropdown-content1"style="margin-top:60px;" >
